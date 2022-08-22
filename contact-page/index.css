@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: black;
+}
+
+.header {
+  background-color: black;
+  max-height: 70px;
+  min-width: 375px;
+}
+.section {
+  min-height: 850px;
+}
