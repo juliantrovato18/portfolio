@@ -4,17 +4,17 @@ function headerComp(el) {
         <header class="header">
             <div class="container-logo">
               <div class="links">
-              <a href="" class="links">Portfolio</a>
-              <a href="./services-page/index.html" class="links">Servicios</a>
-              <a href="./contact-page/index.html" class="links">Contacto</a>
+              <a href="#portfolio" class="links">Portfolio</a>
+              <a href="#servicios" class="links">Servicios</a>
+              <a href="#form" class="links">Contacto</a>
               </div> 
             </div>
             <button class="abre">Menu</button>
             <div class="menu">
             <button class="cierra-ventana">X</button>
-            <a href="" class="links">Portfolio</a>
-            <a href="./services-page/index.html" class="links">Servicios</a>
-            <a href="./contact-page/index.html" class="links">Contacto</a>
+            <a href="#portfolio" class="links">Portfolio</a>
+            <a href="#servicios" class="links">Servicios</a>
+            <a href="#form" class="links">Contacto</a>
             </div>
         </header>
     

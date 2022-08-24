@@ -54,7 +54,7 @@
         <p class="info-text">Soy un desarrollador web full stack de Buenos Aires, un apasionado por la tecnologia, el desarrollo web, desarrollo de aplicaciones y en especial por la parte de backend. Actualmente estoy trabajando en nuevos proyectos y la implementacion de nuevas tecnologias. Podes ver mis proyectos en la parte de servicios, donde en algunos trabaje con React, Typescript, nodeJS, bases de datos como PostGreSQL y Firebase.</p>
         </div>
     </div>
-    <section class="services">
+    <section class="services" id="servicios">
         <h2 class="services-title">Mis Servicios</h2>
         <div class="services-container">
             <img class="services-img" src="./img/desarrollo-web1.png" alt="">
@@ -156,21 +156,23 @@
             </table>
         </div>
     </section>
-    <section class="projects">
+    <section id="portfolio" class="projects">
         <h2 class="projects-title">Mis Proyectos</h2>
         <p class="projects-p">Estos son mis mejores proyecctos en los que trabaje hasta el dia de la fecha, actualmente sigo colaborando, mejorando y armando más proyectos.</p>
         <div class="container-card-project">
         <template id="template-proyectos">
             <div class="container-project">
-                <img class="image-project" src="" alt="">
+                <div class="container-img-project">
+                    <img class="image-project" src="" alt="">
+                </div>    
                 <div class="container-project-links">
                     <h3 class="title-project"></h3>
                     <p class="p-project"></p>
                     <div class="project-an">
                         <div class="project-name">
-                            <img class="project-min" src="https://commons.wikimedia.org/wiki/File:Octicons-mark-github.svg" alt=""><a class="github">Github</a></div>
+                            <img class="project-min" src="./img/25231.png" alt=""><a class="github">Github</a></div>
                         <div class="project-name">
-                            <img class="project-min" src="" alt=""><a  class="project-a">Web</a></div>
+                            <img class="project-min" src="./img/websvg.svg" alt=""><a  class="project-a">Web</a></div>
                         </div>
                     </div>
                 </div>        
@@ -179,7 +181,7 @@
         </template>
         </div>
     </section>
-    <form class="form">
+    <form id="form" class="form">
     </form>
     <footer class="footer"></footer>
 </body>
