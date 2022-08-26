@@ -38,12 +38,7 @@
 .container-cierra-ventana {
   text-align: right;
 }
-.abre {
-  position: absolute;
-  top: 7px;
-  left: 320px;
-}
-@media(min-width:600px){
+@media(min-width:890px){
   .abre{
     display: none;
   }
