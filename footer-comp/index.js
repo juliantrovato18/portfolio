@@ -1,8 +1,10 @@
 function footerComp(el) {
-  const footer = document.createElement("div");
+  const footer = document.createElement("footer");
+
+
   footer.innerHTML = `
-        <div class="footer">
-        <h3 class="footer-title">Julian</h3>
+        <div class="footer2">
+          <h3 class="footer-title">Julian</h3>
             <div class="container-social">
                 <div class="social-links">
                 <a href="https://www.instagram.com/juliantrovato" class="footer-pe">Instagram</>
@@ -17,9 +19,7 @@ function footerComp(el) {
                 <img class="footer-img" src="../img/github.png" />
                 </div>
             </div>
-        </div>
-    
-    
+        </div>    
     `;
   el.appendChild(footer);
 }
