@@ -1,9 +1,7 @@
 function footerComp(el) {
-  const footer = document.createElement("footer");
 
-
-  footer.innerHTML = `
-        <div class="footer2">
+  el.innerHTML = `
+        <div class="footer">
           <h3 class="footer-title">Julian</h3>
             <div class="container-social">
                 <div class="social-links">
@@ -11,7 +9,7 @@ function footerComp(el) {
                 <img class="footer-img" src="../img/instagram.png" />
                 </div>
                 <div class="social-links">
-                <a href="www.facebook.com" class="footer-pe">Linkedin</a>
+                <a href="https://www.linkedin.com/in/juliantrovato/" class="footer-pe">Linkedin</a>
                 <img class="footer-img" src="../img/linkedin.png" />
                 </div>
                 <div class="social-links">

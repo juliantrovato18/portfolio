@@ -120,11 +120,11 @@ function formulario(){
 }
 
 function main() {
+  importData();
   footerComp(document.querySelector(".footer"));
   contactForm(document.querySelector(".form"));
   formulario();
   openMenu();
-  importData();
 
   
 }
