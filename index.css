@@ -300,6 +300,9 @@ body {
   border-radius: 18px;
   margin-bottom: 10px;
 }
+.container-project:hover {
+  background-color:rgb(36, 36, 59);
+}
 @media(min-width:900px){
   .container-project{
     display: flex;
@@ -310,6 +313,12 @@ body {
     width: 100%;
     border-radius: 18px;
     margin-bottom: 15px;
+    transition-delay: 0s;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in;
+  }
+  .container-project:hover {
+    background-color:rgb(36, 36, 59);
   }
   .container-card-project{
     display: flex;
@@ -369,9 +378,13 @@ body {
 .project-a{
   font-size: 20px;
   font-weight: 500;
+  text-decoration: none;
+  color: white;
 }
 .github{
   font-size: 20px;
   font-weight: 500;
+  text-decoration: none;
+  color: white;
 }
 
