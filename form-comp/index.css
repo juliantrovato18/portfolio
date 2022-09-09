@@ -60,6 +60,13 @@
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  transition-delay: 0s;
+  transition-duration: 0.4s;
+  transition-timing-function: ease-in;
+}
+.submit-form:hover{
+  background-color:dimgray;
+  scale: 1.02;
 }
 .textarea {
   width: 100%;
