@@ -5,10 +5,6 @@ function footerComp(el) {
           <h3 class="footer-title">Julian</h3>
             <div class="container-social">
                 <div class="social-links">
-                <a href="https://www.instagram.com/juliantrovato" class="footer-pe">Instagram</>
-                <img class="footer-img" src="./img/instagram.png" />
-                </div>
-                <div class="social-links">
                 <a href="https://www.linkedin.com/in/juliantrovato/" class="footer-pe">Linkedin</a>
                 <img class="footer-img" src="./img/linkedin.png" />
                 </div>

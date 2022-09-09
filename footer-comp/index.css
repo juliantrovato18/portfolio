@@ -68,11 +68,13 @@
 .social-links {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  align-items: flex-start;
 }
-
 .footer-img {
   width: 30px;
   height: 30px;
   margin-left: 10px;
+}
+.container-social{
+  gap: 8px;
 }

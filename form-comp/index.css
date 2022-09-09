@@ -2,13 +2,21 @@
   box-sizing: border-box;
 }
 .contact {
-  min-height: 600px;
+  min-height: 500px;
   min-width: 375px;
   background-color: rgb(222, 228, 233);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+@media (min-width: 900px) {
+.container-leyenda{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 }
 
 @media (min-width: 900px) {
@@ -24,12 +32,16 @@
   font-size: 25px;
   font-weight: 700 bold;
   font-family: "Roboto";
-  margin-bottom: 60px;
+  margin-bottom: 50px;
 }
 @media (min-width: 900px) {
   .form-title {
-    margin-bottom: 230px;
+    align-content: flex-start;
   }
+}
+.form-p{
+  font-size: 16px;
+  font-family: "Roboto";
 }
 .label {
   color: aliceblue;
@@ -46,11 +58,13 @@
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   background-color:darkgray;
   border: none;
+  border-radius: 4px;
   cursor: pointer;
 }
 .textarea {
   width: 100%;
   font-size: 16px;
+  font-family: "roboto";
   border-style: none none solid;
   border-width: medium medium 1px;
   background: transparent none repeat scroll 0% 0%;;
@@ -61,6 +75,7 @@
 .input{
   width: 100%;
   font-size: 16px;
+  font-family: "roboto";
   margin-bottom: 8px;
   background: transparent none repeat scroll 0% 0%;;
   border-style: none none solid;
