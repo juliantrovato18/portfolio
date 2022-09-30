@@ -369,11 +369,13 @@ body {
   color: white;
   font-size: 20px;
   padding: 10px;
+  font-family: "Roboto";
 }
 @media(min-width:600px){
   .p-project{
     min-height: 250px;
     padding: 10px;
+    font-family: "Roboto";
   }
 }
 .project-min{
